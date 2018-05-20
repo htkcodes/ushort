@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
+
+html{
+    overflow: hidden;
+}
+.cl{
+    margin-top: 0.9rem;
+  
+}
+small{
+    margin-top: 0.8rem;
+}
+
+.canvas .canvas-cover {
+    position: relative;
+    background-color: rgba(241, 196, 15, 0.6);
+    height: 100vh;
+}
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.softHidden {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.padding-no {
+	padding: 0;
+}
+
+.margin-no {
+	margin: 0;
+}
+
+.margin-auto {
+	margin: 0 auto;
+}
+
+nav.navbar-default {
+	position: absolute;
+	background-color: rgba(241, 196, 15, 0);
+	color: #fff;
+	z-index: 1000;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-collapse.collapse.in,
+.navbar-collapse.collapsing,
+.navbar-collapse.collapse.in .navbar-nav > li > a,
+.navbar-collapse.collapsing .navbar-nav > li > a {
+	background-color: #fff;
+	text-align: center;
+	color: #333 !important;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .action > a,
+.navbar-default .navbar-nav > .action > a:focus,
+.navbar-default .navbar-nav > .action > a:hover {
+	color: #fff;
+	border-top: 3px solid transparent;
+}
+
+
+
+.navbar-collapse.collapse.in .navbar-nav > .active > a,
+.navbar-collapse.collapsing .navbar-nav > .active > a,
+.navbar-collapse.collapse.in .navbar-nav > li > a:hover,
+.navbar-collapse.collapsing .navbar-nav > li > a:hover,
+.navbar-collapse.collapse.in .navbar-nav > li > a:focus,
+.navbar-collapse.collapsing .navbar-nav > li > a:focus {
+	background: transparent;
+	border-top: 3px solid transparent;
+	color: #f1c40f !important;
+}
+
+.canvas {
+
+	-o-background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.canvas .canvas-cover {
+	position: relative;
+	background-color: #01ACFF;
+	height: 100vh;
+}
+
+
+.overview{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0.9rem; 
+    color: #ffffff; 
+    font-size: large;
+    margin-top: 12em;
+}
+
+.canvas .canvas-cover h1 {
+	color: #fff;
+	margin-top: 12rem;
+	margin-bottom: 0;
+}
+
+.canvas .canvas-cover div.shortener {
+	margin-top: 12rem;
+}
+
+.canvas .canvas-cover input[type="text"].shortener {
+	width: 100%;
+	border: none;
+	padding: 20px 25px;
+	background-color: #fff;
+	float: left;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.canvas .canvas-cover input[type="text"].shortener.disabled {
+	background-color: #eee;
+}
+
+.canvas .canvas-cover .btn.shortener {
+	margin: 0;
+	width: 100%;
+	color: #fff;
+	background-color: #46C2FF;
+	float: left;
+	border-radius: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 19px 25px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.canvas .canvas-cover .btn.shortener:hover {
+	background-color: #46C2FF;
+}
+
+.segment {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #eee;
+}
+
+
+
+input {
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px 25px;
+	background-color: #eee;
+}
+
+input[type="submit"] {
+	background-color: #f1c40f;
+	color: #fff;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #f39c12;
+}
